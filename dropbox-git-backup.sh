@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# This script is meant to be used as a post-commit hook in a git repo.
+# Put it in .git/hooks/post-commit and you're all set.
+# (Note: It excludes the 'build' directory.)
+
 PWD=`pwd`
 DIR=`basename "$PWD"`
 DROPBOX="/path/to/my/Dropbox/$DIR.tar.gz"
