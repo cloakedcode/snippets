@@ -78,7 +78,7 @@ class Sync (threading.Thread):
 
 remote_host = 'your-remote-server'
 remote_dir = '/home/user/hole'
-local_dir = '/Users/user/hol'
+local_dir = '/Users/user/hole'
 
 changed_files = Queue.Queue(4)
 event_handler = FileNotifications()
