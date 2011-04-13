@@ -19,8 +19,6 @@ class PDF extends FPDI
 			$tpl = $p->importPage($i);
 			$p->useTemplate($tpl);
 
-			$tplsize = $p->getTemplateSize($tpl);
-
 			$p->Image($img_file, 0, 0);
 		}
 
