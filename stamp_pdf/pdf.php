@@ -1,7 +1,5 @@
 <?php
 
-ini_set('date.timezone', 'America/Denver');
-
 require('tcpdf/tcpdf.php');
 require('fpdi/fpdi.php');
 
